@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.timer {
+  border: 5px solid rgb(16, 87, 16);
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.225);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-end {
+  border: 5px solid rgb(70, 11, 11);
+}
+
+.count {
+  font-family: Arial;
+  font-size: 135px;
+  color: whitesmoke;
+  display: flex;
+}
+
+.count div {
+  outline: 0;
+  border-bottom: 1px dotted rgb(170, 165, 165);
+}
+
+.manage {
+  display: flex;
+  flex-direction: column;
+}
+
+.manage button {
+  cursor: pointer;
+  background: inherit;
+  border: 0;
+  color: rgb(170, 165, 165);
+}
+
+.manage .start {
+  margin-top: 13px;
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+.manage .changer {
+  margin-top: 3px;
+  font-size: 35px;
+  font-weight: bold;
+}
