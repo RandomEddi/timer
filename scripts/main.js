@@ -24,6 +24,7 @@ manage.onclick = () => {
     t.setAttribute("contenteditable", "true")
   })
   time[0].focus()
+  stopTimer()
 }
 
 start.onclick = () => {
@@ -38,8 +39,6 @@ start.onclick = () => {
     start.textContent = "PAUSE"
   } else if (start.dataset.starting == "true") {
     stopTimer()
-    start.textContent = "START"
-    start.dataset.starting = false
   }
 }
 
